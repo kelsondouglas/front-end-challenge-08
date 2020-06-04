@@ -2,47 +2,90 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   
-  <title>Frontend Mentor | Fylo landing page with two column layout</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <title>Frontend Mentor | Fylo landing page with two column layout</title>
 </head>
 <body>
+<div class="header">
+  <div class="container">
+    <nav>
+      <img src="images/logo.svg" alt="Logo do Website">
+      <div class="menu">
+        <ul>
+          <li><a href="#Features">Features</a></li>
+          <li><a href="#Team">Team</a></li>
+          <li><a href="#SignIn">Sign In</a></li>
+        </ul>
+      </div>
+    </nav>
 
-  Features
-  Team
-  Sign In
+    <div class="chamada">
+      <div class="left-side">
+        <h1>All your files in one secure location, accessible anywhere</h1>
+        <p>Fylo stores your most important files in one secure location. 
+          Access them wherever you need, share and collaborate with friends, 
+          family, and co-workers.</p>
 
-  All your files in one secure location, accessible anywhere.
+          <div class="email">
+            <input type="text" placeholder="Enter your email...">
+            <button>Get Started</button>
+          </div>
 
-  Fylo stores your most important files in one secure location. 
-  Access them wherever you need, share and collaborate with friends, 
-  family, and co-workers.
-
-  Get Started
-
-  Stay productive, wherever you are
-
-  Never let location be an issue when accessing your files. Fylo has you 
+      </div>
+      <div class="right-side">
+        <img src="images/illustration-1.svg" alt="illustration 1">
+      </div>
+    </div>
+  </div>
+</div>
+<section class="collabs">
+  <div class="container">
+    <div class="left-side">
+      <h1>Stay productive, wherever you are</h1>
+      <p>
+        Never let location be an issue when accessing your files. Fylo has you 
   covered for all of your file storage needs.
-
-  Securely share files and folders with friends, family and colleagues for 
+      </p>
+      <p>
+        Securely share files and folders with friends, family and colleagues for 
   live collaboration. No email attachments required!
+      </p>
 
-  See how Fylo works
+        <a href="#">See how Fylo works <img src="images/icon-arrow.svg" alt=""> </a>
 
-  Fylo has improved our team productivity by an order of magnitude. Since 
-  making the switch our team has become a well-oiled collaboration machine.
-
-  Kyle Burton
-  Founder & CEO, Huddle
+        <div class="comments">
+          <img src="images/icon-quotes.svg" alt="Icon Quotes">
+          <p>
+            Fylo has improved our team productivity by an order of magnitude. Since 
+            making the switch our team has become a well-oiled collaboration machine.
+          </p>
+          <div class="person">
+            <div class="icon">
+              <img src="images/avatar-testimonial.jpg" alt="Avatar">
+            </div>
+            <h3>Kyle Burton</h3>
+            <p>Founder & CEO, Huddle</p>
+          </div>
+        </div>
+    </div>
+    <div class="right-side">
+      <div class="image">
+        <img src="images/illustration-2.svg" alt="illustration 2">
+      </div>
+    </div>
+  </div>
+</section>
+<section class="early">
+  <div class="container">
+    
+  </div>
+</section>
 
   Get early access today
 
@@ -63,11 +106,5 @@
   Terms
   Privacy
 
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
 </body>
 </html>
